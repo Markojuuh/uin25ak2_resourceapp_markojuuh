@@ -1,0 +1,18 @@
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+
+    .tab {
+        padding: 10px 20px;
+        background: #3498db;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+
+        &:hover {
+            background: #2980b9;
+        }
+    }
+}
