@@ -10,7 +10,7 @@ const Nav = () => {
                 <li><Link to="/css" className="tab">CSS</Link></li>
                 <li><Link to="/javascript" className="tab">Javascript</Link></li>
                 <li><Link to="/react" className="tab">React</Link></li>
-                <li><Link to="/sanity" className="tab">Sanity and Headless CMS</Link></li>
+                <li><Link to="/headless-cms" className="tab">Sanity and Headless CMS</Link></li>
             </ul>
         </nav>
     );
