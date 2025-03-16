@@ -7,9 +7,9 @@ const Nav = () => {
             <ul className="tabs">
                 <li><Link to="/html">HTML</Link></li>
                 <li><Link to="/css">CSS</Link></li>
-                <li><Link to="/javascript">Jvascript</Link></li>
+                <li><Link to="/javascript">Javascript</Link></li>
                 <li><Link to="/react">React</Link></li>
-                <li><Link to="/sanity"></Link></li>
+                <li><Link to="/sanity">Sanity and Headless CMS</Link></li>
             </ul>
         </nav>
     )
