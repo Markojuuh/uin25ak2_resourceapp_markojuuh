@@ -5,6 +5,7 @@ import "../assets/styles/layout.scss";
 const layout = ({ children}) => {
     return (
         <main className ="layout">
+            <Nav />
             <section>
                 <h1>Min resurs app</h1>
                 {children}
@@ -12,4 +13,6 @@ const layout = ({ children}) => {
         </main>
     );
 };
+
+export default layout
 
