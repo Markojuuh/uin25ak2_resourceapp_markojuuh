@@ -17,3 +17,5 @@ const Resources = ({ category }) => {
     )
 
 }
+
+export default Resources
