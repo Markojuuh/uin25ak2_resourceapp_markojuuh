@@ -2,6 +2,10 @@ import React from "react"
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/layout.jsx";
 import Resources from "./components/resources.jsx";
+import "./assets/styles/layout.scss";
+import "./assets/styles/nav.scss";
+import "./assets/styles/pagetitle.scss";
+import "./assets/styles/resources.scss";
 
 function App() {
   return (
