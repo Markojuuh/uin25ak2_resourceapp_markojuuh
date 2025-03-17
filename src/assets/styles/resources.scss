@@ -1,1 +1,24 @@
 @import "variables";
+
+.resources {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.resources a {
+    font-size: 16px;
+    font-weight: bold;
+    color: $lightblue;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.resources a:hover {
+    text-decoration: none;
+    color: $darkblue;
+}
