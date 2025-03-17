@@ -7,7 +7,7 @@ const layout = ({ children}) => {
         <main className ="layout">
             <Nav />
             <section>
-                <h1>Min resurs app</h1>
+                <h1 className="pageTitle">Min resurs app</h1>
                 {children}
             </section>
         </main>
